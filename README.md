@@ -20,7 +20,7 @@ This project analyzes daily gold prices in India from 2020 to 2024, identifying 
 
 ---
 
-## 📁Project Structure
+## Project Structure
 
 ```
 gold-price-analysis/
@@ -104,7 +104,7 @@ FROM gold_price_india;
 
 ---
 
-## 📈 Power BI Dashboard
+## Power BI Dashboard
 
 ### KPI Cards:
 -  **Highest Gold Price:** ₹69,810
