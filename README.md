@@ -1,16 +1,16 @@
-# 🥇 Gold Price Analysis Dashboard — India (2020–2024)
+# Gold Price Analysis Dashboard — India (2020–2024)
 
 A complete data analytics project analyzing gold price trends in India using **Excel**, **SQL**, and **Power BI**.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes daily gold prices in India from 2020 to 2024, identifying seasonal trends, festive season demand patterns, and year-wise price growth. The insights are presented through an interactive Power BI dashboard.
 
 ---
 
-## 🔧 Tools Used
+## Tools Used
 
 | Tool | Purpose |
 |---|---|
@@ -20,7 +20,7 @@ This project analyzes daily gold prices in India from 2020 to 2024, identifying 
 
 ---
 
-## 📁 Project Structure
+## 📁Project Structure
 
 ```
 gold-price-analysis/
@@ -37,7 +37,7 @@ gold-price-analysis/
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 - **Source:** MCX (Multi Commodity Exchange) & IBJA (India Bullion and Jewellers Association)
 - **Duration:** January 2020 – December 2024
@@ -57,7 +57,7 @@ gold-price-analysis/
 
 ---
 
-## 🧹 Excel — Data Cleaning Steps
+##  Excel — Data Cleaning Steps
 
 1. Opened raw CSV in Excel
 2. Formatted Date column to proper date format
@@ -70,7 +70,7 @@ gold-price-analysis/
 
 ---
 
-## 🗄️ SQL — Business Queries
+##  SQL — Business Queries
 
 ```sql
 -- 1. Highest gold price day
@@ -107,9 +107,9 @@ FROM gold_price_india;
 ## 📈 Power BI Dashboard
 
 ### KPI Cards:
-- 💰 **Highest Gold Price:** ₹69,810
-- 📉 **Lowest Gold Price:** ₹41,120
-- 📊 **Average Gold Price:** ₹55,270
+-  **Highest Gold Price:** ₹69,810
+-  **Lowest Gold Price:** ₹41,120
+-  **Average Gold Price:** ₹55,270
 
 ### Visuals:
 - **Line Chart** — Gold price trend from 2020 to 2024
@@ -118,7 +118,7 @@ FROM gold_price_india;
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
 1. **90% price growth** — Gold rose from ~₹38,000 in 2020 to ~₹72,000 in 2024
 2. **October & November** are the most expensive months due to Dhanteras & Diwali demand
@@ -128,24 +128,15 @@ FROM gold_price_india;
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1. Download `gold_price_india.xlsx` from the `excel/` folder
 2. Open `gold_dashboard.pbix` in Power BI Desktop
 3. Refresh data source if needed
 4. Run SQL queries in any SQL editor (SQLiteOnline.com works free)
 
----
 
-## 👨‍💻 Author
 
-**[Your Name]**  
-Data Analytics Intern  
-📧 [your email]  
-🔗 [your LinkedIn]
 
----
 
-## 📌 Note
 
-This project was built as part of a data analyst internship interview assignment for an Indian gold company.
